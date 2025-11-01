@@ -122,15 +122,6 @@ Internet Kit Application
 - Atomic JSON writes for data safety
 - **Automatic cleanup of records older than 1 year**
 
-### Storage Format
-```json
-{
-  "timestamp": "2024-01-15T10:30:00",
-  "down": 1250000,
-  "up": 250000,
-  "total_down": 1500000000,
-  "total_up": 300000000
-}
 
 API Endpoints
 /api/live - Current speed data
@@ -188,9 +179,3 @@ Internet Kit respects your privacy:
 All data stored locally on your device
 
 No internet connection required for monitoring
-
-No data sent to external servers
-
-Open-source code for transparency
-
-Your full year of data remains entirely under your control
